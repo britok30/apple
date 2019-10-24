@@ -11,17 +11,17 @@ const Icon = () => {
             <ul>
                 <li>
                     <Link to="/iphone">
-                        <img className="iphone" src={iphone} alt="" />
+                        <img className="iphone wow fadeInUp" data-wow-delay=".9s" src={iphone} alt="" />
                     </Link>
                 </li>
                 <li>
                     <Link to="/macbook">
-                        <img className="macbook" src={macbook} alt="" />
+                        <img className="macbook wow fadeInUp" data-wow-delay="1.1s" src={macbook} alt="" />
                     </Link>
                 </li>
                 <li>
                     <Link to="/watch">
-                        <img className="watch" src={watch} alt="" />
+                        <img className="watch wow fadeInUp" data-wow-delay="1.3s" src={watch} alt="" />
                     </Link>
                 </li>
             </ul>

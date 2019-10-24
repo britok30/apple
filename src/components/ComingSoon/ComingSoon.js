@@ -10,11 +10,11 @@ const ComingSoon = () => {
       <NavOne />
       <div className="csbody">
         <Link to="/main">
-          <img className="logo1" src={logo} alt="" />
+          <img className="logo1 wow fadeInUp" data-wow-delay=".5s" src={logo} alt="" />
         </Link>
         <div className="intro-text">
-          <p className="intro-p">New Products Coming This Summer</p>
-          <h3 className="year">2019</h3>
+          <p className="intro-p wow fadeInUp" data-wow-delay=".9s">New Products Coming This Summer</p>
+          <h3 className="year wow fadeInUp" data-wow-delay="1.1s">2019</h3>
         </div>
       </div>
     </Fragment>

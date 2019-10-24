@@ -15,12 +15,12 @@ const Macbook = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="macbook-text">
-                  <h3 className="macbook-blue">Macbook</h3>
-                  <h1 className="macbook-main">
+                  <h3 className="macbook-blue wow fadeInUp" data-wow-delay=".5s">Macbook</h3>
+                  <h1 className="macbook-main wow fadeInUp" data-wow-delay=".7s">
                     More power. <br />
                     More pro.
                   </h1>
-                  <p className="macbook-p">
+                  <p className="macbook-p wow fadeInUp" data-wow-delay=".9s">
                     <div className="row">
                       <div className="col-md-6">
                         8-Core <br />
@@ -35,7 +35,7 @@ const Macbook = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <img className="pro" src={macbookpro} alt="" />
+                <img className="pro wow fadeInUp" data-wow-delay="1.2s" src={macbookpro} alt="" />
               </div>
             </div>
           </div>

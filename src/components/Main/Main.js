@@ -13,9 +13,9 @@ const Main = () => {
         <div className="container">
           <img className="logogrey" src={logogrey} alt="logo" />
           <div className="main-text">
-            <p className="welcome">Welcome to Apple</p>
+            <p className="welcome wow fadeInUp" data-wow-delay=".7s">Welcome to Apple</p>
             <Link to="/home"className="product-link">
-              <p>See our new products</p>
+              <p className="wow fadeInUp" data-wow-delay=".8s">See our new products</p>
             </Link>
           </div>
           <Icon />

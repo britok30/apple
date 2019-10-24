@@ -17,19 +17,19 @@ const Iphone = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="iphone-text">
-                  <h3 className="iphone-red">iPhone</h3>
-                  <h1 className="iphone-main">
+                  <h3 className="iphone-red wow fadeInUp" data-wow-delay=".5s">iPhone</h3>
+                  <h1 className="iphone-main wow fadeInUp" data-wow-delay=".7s">
                     The ultimate <br />
                     iPhone
                   </h1>
-                  <p className="iphone-p">
+                  <p className="iphone-p wow fadeInUp" data-wow-delay=".9s">
                     The future is here. Join the iPhone Upgrade <br />
                     Program to get the latest iPhone - NOW!
                   </p>
                 </div>
                 <div className="iphone-price">
-                  <h3 className="price">From $699</h3>
-                  <p className="buy-red">Buy Now ></p>
+                  <h3 className="price wow fadeInUp" data-wow-delay="1s">From $699</h3>
+                  <p className="buy-red wow fadeInUp" data-wow-delay="1s">Buy Now ></p>
                 </div>
                 <div className="frontback">
                   <img src="" alt="" />
@@ -37,7 +37,7 @@ const Iphone = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <img className="iphonexs" src={iphonexs} alt="" />
+                <img className="iphonexs wow fadeInUp" data-wow-delay="1.5s" src={iphonexs} alt="" />
               </div>
             </div>
           </div>
