@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import NavTwo from "../NavTwo/NavTwo";
 import macbookpro from "../../Images/macbook.png";
+import logogrey from "../../Images/logogrey.svg";
 import "./Macbook.css";
 
 const Macbook = () => {
@@ -9,6 +10,7 @@ const Macbook = () => {
       <NavTwo />
       <div className="macbody">
         <header className="macbook-header">
+          <img className="logogrey2" src={logogrey} alt="" />
           <div className="container">
             <div className="row">
               <div className="col-md-6">
@@ -19,7 +21,16 @@ const Macbook = () => {
                     More pro.
                   </h1>
                   <p className="macbook-p">
-                  
+                    <div className="row">
+                      <div className="col-md-6">
+                        8-Core <br />
+                        <span className="lite">Intel Processor</span>
+                      </div>
+                      <div className="col-md-6">
+                        32 GB <br />
+                        <span className="lite">Memory</span>
+                      </div>
+                    </div>
                   </p>
                 </div>
               </div>

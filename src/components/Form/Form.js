@@ -20,12 +20,9 @@ class Form extends Component {
 
   //On Submit
 
-  //   onSubmit = e => {
-  //     e.preventDefault();
-  //     this.setState({
-  //       login: <Link to="/home"></Link>
-  //     });
-  //   };
+    onSubmit = e => {
+      e.preventDefault();
+    };
 
   //   User Input Handler
 
@@ -147,7 +144,7 @@ class Form extends Component {
                   disabled={!this.state.formValid}
                   onSubmit={this.onSubmit}
                 >
-                  <Link to="/home">Create Account</Link>
+                  <Link to="/home" style={{color: "#000"}}>Create Account</Link>
                 </button>
                 <small>Already Have an Account?</small>
               </div>
