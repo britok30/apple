@@ -4,7 +4,7 @@ import logoblack from "../../Images/logoblack.png";
 import "./NavTwo.css";
 import { Link } from "@reach/router";
 
-const NavTwo = () => {
+const NavTwo = ({ active }) => {
   return (
     <Navbar className="navtwo" expand="lg">
       <Navbar.Brand className="brand2" href="#home">
@@ -15,7 +15,7 @@ const NavTwo = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link className="navlink" href="/iphone">
+          <Nav.Link className="navlink" href="/iphone" active>
             iPhone
           </Nav.Link>
           <Nav.Link className="navlink" href="/macbook">

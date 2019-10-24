@@ -4,13 +4,13 @@
   top: 25%;
   left: 43%;
   transform: (-50%, -50%);
-  opacity: 0.2
+  opacity: 0.2;
 }
 
 .mainbody {
   background: linear-gradient(
-    to right bottom,
-    rgba(154, 155, 156, 0.274),
+    to right,
+    rgba(154, 155, 156, 0.171),
     #ffffff
   );
   height: 100vh;
@@ -42,36 +42,3 @@ a:active {
   font-size: 1.3rem;
 }
 
-ul {
-  list-style: none;
-}
-
-ul li {
-  display: inline;
-  padding: 2rem;
-}
-
-.iphone {
-  width: 3%;
-  opacity: 0.5;
-  filter: grayscale(100%);
-}
-
-.macbook {
-  width: 4%;
-  opacity: 0.5;
-  filter: grayscale(100%);
-}
-
-.watch {
-  width: 2%;
-  opacity: 0.5;
-  filter: grayscale(100%);
-}
-
-.icon {
-  position: absolute;
-  bottom: 15%;
-  left: 44.1%;
-  transform: (-50%, -50%);
-}

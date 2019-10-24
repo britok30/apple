@@ -1,0 +1,33 @@
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding: 2rem;
+}
+
+.iphone1 {
+  width: 3%;
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.macbook1 {
+  width: 4%;
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.watch1 {
+  width: 2%;
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.icon1 {
+  position: absolute;
+  bottom: 15%;
+  left: 44.1%;
+  transform: (-50%, -50%);
+}
