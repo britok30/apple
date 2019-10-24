@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FormError from "./FormError";
+import { FormError }  from "./FormError";
 import "./Form.css";
 
 class Form extends Component {
@@ -24,26 +24,24 @@ class Form extends Component {
   //   User Input Handler
 
   handleUserInput = e => {
-    const name = e.target.value;
+    const name = e.target.name;
     const value = e.target.value;
     this.setState({ [name]: value }, () => {
-      this.validate(name, value);
+      this.validateField(name, value);
     });
   };
 
-  validate(fieldName, value) {
+  validateField(fieldName, value) {
     let fieldValidationErrors = this.state.formErrors;
     let emailValid = this.state.emailValid;
     let passwordValid = this.state.passwordValid;
 
     switch (fieldName) {
       case "email":
-        //   Simple Regex
         emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
         fieldValidationErrors.email = emailValid ? "" : " is invalid";
         break;
       case "password":
-        //Password Minimum length of 6
         passwordValid = value.length >= 6;
         fieldValidationErrors.password = passwordValid ? "" : " is too short";
         break;
@@ -66,6 +64,10 @@ class Form extends Component {
     });
   }
 
+  errorClass(error) {
+    return error.length === 0 ? "" : "has-error";
+  }
+
   render() {
     const { firstName, lastName, email, password } = this.state;
 
@@ -85,48 +87,53 @@ class Form extends Component {
                 type="text"
                 name="firstName"
                 noValidate
-                onChange={event => this.handleUserInput(event)}
+                onChange={this.handleUserInput}
                 value={firstName}
               />
             </div>
+
             <div className="lastName">
               <label htmlFor="lastName">Last Name</label>
               <input
-                className=""
                 placeholder="Last Name"
                 type="text"
                 name="lastName"
                 noValidate
-                onChange={event => this.handleUserInput(event)}
+                onChange={this.handleUserInput}
                 value={lastName}
               />
             </div>
+
             <div className="email">
               <label htmlFor="email">Email</label>
               <input
-                className=""
                 placeholder="Email"
                 type="email"
                 name="email"
                 noValidate
-                onChange={event => this.handleUserInput(event)}
+                onChange={this.handleUserInput}
                 value={email}
               />
             </div>
+
             <div className="password">
               <label htmlFor="password">Password</label>
               <input
-                className=""
                 placeholder="Password"
                 type="password"
                 name="password"
                 noValidate
-                onChange={event => this.handleUserInput(event)}
+                onChange={this.handleUserInput}
                 value={password}
               />
             </div>
+
             <div className="createAccount">
-              <button className="btn btn-dark" type="submit">
+              <button
+                className="btn btn-dark"
+                type="submit"
+                disabled={!this.state.formValid}
+              >
                 Create Account
               </button>
               <small>Already Have an Account?</small>
