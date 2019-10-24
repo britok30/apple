@@ -4,11 +4,11 @@ import logoblack from "../../Images/logoblack.png";
 import "./NavTwo.css";
 import { Link } from "@reach/router";
 
-const NavTwo = ({ active }) => {
+const NavTwo = () => {
   return (
     <Navbar className="navtwo" expand="lg">
       <Navbar.Brand className="brand2" href="#home">
-        <Link to="/">
+        <Link to="/main">
           <img className="logo2" src={logoblack} alt="" />
         </Link>
       </Navbar.Brand>
