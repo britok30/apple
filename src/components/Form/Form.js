@@ -87,9 +87,9 @@ class Form extends Component {
           </div>
 
           <div className="form-wrapper">
-            <h1 className="form-header">Sign Up For iCloud</h1>
+            <h1 className="form-header wow fadeInUp" data-wow-delay=".5s">Sign Up For iCloud</h1>
             <form onSubmit={this.onSubmit}>
-              <div className="firstName">
+              <div className="firstName wow fadeInUp" data-wow-delay=".7s">
                 <label htmlFor="firstName">First Name</label>
                 <input
                   placeholder="First Name"
@@ -101,7 +101,7 @@ class Form extends Component {
                 />
               </div>
 
-              <div className="lastName">
+              <div className="lastName wow fadeInUp" data-wow-delay=".7s">
                 <label htmlFor="lastName">Last Name</label>
                 <input
                   placeholder="Last Name"
@@ -113,7 +113,7 @@ class Form extends Component {
                 />
               </div>
 
-              <div className="email">
+              <div className="email wow fadeInUp" data-wow-delay=".9s">
                 <label htmlFor="email">Email</label>
                 <input
                   placeholder="Email"
@@ -125,7 +125,7 @@ class Form extends Component {
                 />
               </div>
 
-              <div className="password">
+              <div className="password wow fadeInUp" data-wow-delay="1.1s">
                 <label htmlFor="password">Password</label>
                 <input
                   placeholder="Password"
@@ -137,7 +137,7 @@ class Form extends Component {
                 />
               </div>
 
-              <div className="createAccount">
+              <div className="createAccount wow fadeInUp" data-wow-delay="1.3s">
                 <button
                   className="btn btn-dark"
                   type="submit"
