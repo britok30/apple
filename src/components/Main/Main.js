@@ -1,13 +1,10 @@
 import React, { Fragment } from "react";
-import Navbar from "../Navbar/Navbar";
 import Icon from "../Icon/Icon";
 import { Link } from "@reach/router";
-import "./Main.css";
 
 const Main = () => {
     return (
         <Fragment>
-            <Navbar />
             <div className="mainbody">
                 <div className="container hero">
                     <div className="main-text">
@@ -24,6 +21,9 @@ const Main = () => {
                         </Link>
                     </div>
                     <Icon />
+                </div>
+                <div className="container">
+                  
                 </div>
             </div>
         </Fragment>

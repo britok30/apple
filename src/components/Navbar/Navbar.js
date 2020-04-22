@@ -1,26 +1,24 @@
 import React from "react";
-import logoblack from "../../Images/logoblack.png";
-import "./Navbar.css";
+import logo from "../../Images/logo.png";
 import { Link } from "@reach/router";
 
 const Navbar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg">
                 <Link
-                    class="navbar-brand brand2"
+                    className="navbar-brand brand2"
                     to="/"
-                    style={{ color: "#000" }}
                 >
                     <img
                         className="logo2 wow fadeInUp"
                         data-wow-delay=".7s"
-                        src={logoblack}
+                        src={logo}
                         alt=""
                     />
                 </Link>
                 <button
-                    class="navbar-toggler"
+                    className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
                     data-target="#navbarNav"
@@ -28,12 +26,12 @@ const Navbar = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ml-auto">
                         <li
-                            class="nav-item active wow fadeInUp"
+                            className="nav-item active wow fadeInUp"
                             data-wow-delay=".7s"
                         >
                             <Link className="nav-link navlink" to="/">
@@ -47,7 +45,7 @@ const Navbar = () => {
                             <Link
                                 className="nav-link navlink"
                                 to="/iphone"
-                                style={{ color: "#000" }}
+                                style={{ color: "#fff" }}
                             >
                                 Iphone
                             </Link>
@@ -59,7 +57,7 @@ const Navbar = () => {
                             <Link
                                 className="nav-link navlink"
                                 to="/macbook"
-                                style={{ color: "#000" }}
+                                style={{ color: "#fff" }}
                             >
                                 Macbook
                             </Link>
@@ -71,7 +69,7 @@ const Navbar = () => {
                             <Link
                                 className="nav-link navlink"
                                 to="/watch"
-                                style={{ color: "#000" }}
+                                style={{ color: "#fff" }}
                             >
                                 Watch
                             </Link>
@@ -80,51 +78,6 @@ const Navbar = () => {
                 </div>
             </nav>
         </div>
-
-        // <Navbar className="navtwo" expand="lg">
-        //   <Navbar.Brand className="brand2" href="#home">
-        //     <Link to="/" style={{ color: "#000" }}>
-        //       <img
-        //         className="logo2 wow fadeInUp"
-        //         data-wow-delay=".7s"
-        //         src={logoblack}
-        //         alt=""
-        //       />
-        //     </Link>
-        //   </Navbar.Brand>
-        //   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        //   <Navbar.Collapse id="basic-navbar-nav">
-        //     <Nav className="ml-auto">
-        //       <Nav.Link
-        //         className="navlink wow fadeInUp"
-        //         data-wow-delay=".7s"
-        //         active
-        //       >
-        //         <Link to="/iphone" style={{ color: "#000" }}>
-        //           iPhone
-        //         </Link>
-        //       </Nav.Link>
-        //       <Nav.Link className="navlink wow fadeInUp" data-wow-delay=".9s">
-        //         <Link to="/macbook" style={{ color: "#000" }}>
-        //           MacBook
-        //         </Link>
-        //       </Nav.Link>
-        //       <Nav.Link className="navlink wow fadeInUp" data-wow-delay="1.1s">
-        //         <Link to="/watch" style={{ color: "#000" }}>
-        //           Watch
-        //         </Link>
-        //       </Nav.Link>
-        //       <Nav.Link href="#">
-        //         <button
-        //           className="btn btn-primary btn-prime wow fadeInUp"
-        //           data-wow-delay="1.3s"
-        //         >
-        //           Notify Me
-        //         </button>
-        //       </Nav.Link>
-        //     </Nav>
-        //   </Navbar.Collapse>
-        // </Navbar>
     );
 };
 

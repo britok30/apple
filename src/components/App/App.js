@@ -4,20 +4,23 @@ import Main from "../Main/Main";
 import Iphone from "../Iphone/Iphone";
 import Watch from "../Watch/Watch";
 import Macbook from "../Macbook/Macbook";
+import Navbar from "../Navbar/Navbar";
+import "./App.css";
 
 const App = () => {
-  return (
-    <Fragment>
-      <div>
-        <Router>
-          <Main path="/" />
-          <Iphone path="/iphone" />
-          <Watch path="/watch" />
-          <Macbook path="/macbook" />
-        </Router>
-      </div>
-    </Fragment>
-  );
+    return (
+        <Fragment>
+            <Navbar />
+            <div>
+                <Router>
+                    <Main path="/" />
+                    <Iphone path="/iphone" />
+                    <Watch path="/watch" />
+                    <Macbook path="/macbook" />
+                </Router>
+            </div>
+        </Fragment>
+    );
 };
 
 export default App;
