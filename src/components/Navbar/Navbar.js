@@ -36,8 +36,8 @@ const Navbar = () => {
                             class="nav-item active wow fadeInUp"
                             data-wow-delay=".7s"
                         >
-                            <Link class="nav-link" to="/">
-                                Home <span class="sr-only">(current)</span>
+                            <Link className="nav-link navlink" to="/">
+                                Home <span className="sr-only">(current)</span>
                             </Link>
                         </li>
                         <li
@@ -45,7 +45,7 @@ const Navbar = () => {
                             data-wow-delay=".9s"
                         >
                             <Link
-                                className="nav-link"
+                                className="nav-link navlink"
                                 to="/iphone"
                                 style={{ color: "#000" }}
                             >
@@ -57,7 +57,7 @@ const Navbar = () => {
                             data-wow-delay="1.1s"
                         >
                             <Link
-                                class="nav-link"
+                                className="nav-link navlink"
                                 to="/macbook"
                                 style={{ color: "#000" }}
                             >
@@ -69,7 +69,7 @@ const Navbar = () => {
                             data-wow-delay="1.3s"
                         >
                             <Link
-                                className="nav-link"
+                                className="nav-link navlink"
                                 to="/watch"
                                 style={{ color: "#000" }}
                             >

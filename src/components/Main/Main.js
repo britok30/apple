@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Navbar from "../Navbar/Navbar";
-import Hero from "../../Images/hero.jpg";
 import Icon from "../Icon/Icon";
 import { Link } from "@reach/router";
 import "./Main.css";
@@ -10,7 +9,7 @@ const Main = () => {
         <Fragment>
             <Navbar />
             <div className="mainbody">
-                <div className="container hero" style={{ background: "Hero" }}>
+                <div className="container hero">
                     <div className="main-text">
                         <p
                             className="welcome wow fadeInUp"
