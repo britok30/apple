@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import NavTwo from "../NavTwo/NavTwo";
+import Navbar from "../Navbar/Navbar";
 import macbookpro from "../../Images/macbook.png";
 import logogrey from "../../Images/logogrey.svg";
 import "./Macbook.css";
@@ -7,7 +7,7 @@ import "./Macbook.css";
 const Macbook = () => {
   return (
     <Fragment>
-      <NavTwo />
+      <Navbar />
       <div className="macbody">
         <header className="macbook-header">
           <img className="logogrey2" src={logogrey} alt="" />

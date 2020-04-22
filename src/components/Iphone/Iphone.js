@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import NavTwo from "../NavTwo/NavTwo";
+import Navbar from "../Navbar/Navbar";
 import "./Iphone.css";
 import iphonexs from "../../Images/Iphone 1.png";
 import logogrey from "../../Images/logogrey.svg";
@@ -9,7 +9,7 @@ import logogrey from "../../Images/logogrey.svg";
 const Iphone = () => {
   return (
     <Fragment>
-      <NavTwo />
+      <Navbar />
       <div className="iphonebody">
         <header className="iphone-header">
           <img className="logogrey2" src={logogrey} alt="" />

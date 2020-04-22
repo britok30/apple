@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import NavTwo from "../NavTwo/NavTwo";
+import Navbar from "../Navbar/Navbar";
 import "./Watch.css";
 import logogrey from "../../Images/logogrey.svg";
 import watchblack from "../../Images/Black Watch-1@2x.png";
@@ -10,7 +10,7 @@ import watchwhite from "../../Images/White Watch-2@2x.png";
 const Watch = () => {
   return (
     <Fragment>
-      <NavTwo />
+      <Navbar />
       <div className="watchbody">
         <header className="watch-header">
           <img className="logogrey2" src={logogrey} alt="" />
