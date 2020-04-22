@@ -1,3 +1,13 @@
+/* Common */
+.logogrey2 {
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    transform: (-50%, -50%);
+    opacity: 0.1;
+}
+
 /* Mainbody */
 
 .mainbody {
@@ -97,11 +107,17 @@ ul li {
 /* Iphone  */
 
 .iphonebody {
-    background: linear-gradient(to right, rgba(154, 155, 156, 0.062), #ffffff);
+    background: linear-gradient(
+            to right,
+            rgba(20, 29, 47, 0.349),
+            rgba(36, 59, 85, 0.349)
+        ),
+        url(../../Images/iphonehero.jpg) no-repeat center center/cover;
     height: 60vh;
 }
 
-.iphone-red {
+.iphone-red,
+.watch-red {
     color: rgb(228, 61, 61);
     font-weight: 600;
 }
@@ -111,14 +127,16 @@ ul li {
     font-size: 6rem;
 }
 
-.iphone-p {
+.iphone-p,
+.watch-p {
     font-weight: 300;
     color: rgb(158, 156, 156);
     margin-top: 4rem;
     font-size: 1.3rem;
 }
 
-.iphone-text {
+.iphone-text,
+.watch-text {
     margin-top: 5rem;
 }
 
@@ -127,16 +145,6 @@ ul li {
     display: block;
     margin: 0 auto;
 }
-
-.logogrey2 {
-    width: 10%;
-    position: absolute;
-    top: 25%;
-    left: 43%;
-    transform: (-50%, -50%);
-    opacity: 0.1;
-}
-
 
 .buy-red {
     color: rgb(228, 61, 61);
@@ -158,7 +166,7 @@ ul li {
             rgba(20, 29, 47, 0.349),
             rgba(36, 59, 85, 0.349)
         ),
-        url(../../Images/macbook.jpg) no-repeat center center/cover;
+        url(../../Images/macbookhero.jpg) no-repeat center center/cover;
     height: 60vh;
 }
 
@@ -167,7 +175,8 @@ ul li {
     font-weight: 600;
 }
 
-.macbook-main {
+.macbook-main,
+.watch-main {
     font-weight: 700;
     font-size: 6rem;
     color: #fff;
@@ -196,15 +205,6 @@ ul li {
     margin: 0 auto;
 }
 
-.logogrey2 {
-    width: 10%;
-    position: absolute;
-    top: 25%;
-    left: 43%;
-    transform: (-50%, -50%);
-    opacity: 0.1;
-}
-
 .macbook-price {
     position: absolute;
     bottom: -15%;
@@ -230,29 +230,13 @@ ul li {
 /* Watches */
 
 .watchbody {
-    background: linear-gradient(to right, rgba(154, 155, 156, 0.062), #ffffff);
+    background: linear-gradient(
+            to right,
+            rgba(20, 29, 47, 0.349),
+            rgba(36, 59, 85, 0.349)
+        ),
+        url(../../Images/watchhero.jpg) no-repeat center center/cover;
     height: 60vh;
-}
-
-.watch-red {
-    color: rgb(228, 61, 61);
-    font-weight: 600;
-}
-
-.watch-main {
-    font-weight: 700;
-    font-size: 6rem;
-}
-
-.watch-p {
-    font-weight: 300;
-    color: rgb(158, 156, 156);
-    margin-top: 4rem;
-    font-size: 1.3rem;
-}
-
-.watch-text {
-    margin-top: 5rem;
 }
 
 .watchblack {
@@ -261,16 +245,14 @@ ul li {
     margin: 5rem auto;
 }
 
-.logogrey2 {
-    width: 10%;
-    position: absolute;
-    top: 25%;
-    left: 43%;
-    transform: (-50%, -50%);
-    opacity: 0.1;
-}
+/* TV */
 
-.buy-red {
-    color: rgb(228, 61, 61);
-    font-weight: 600;
+.tvbody {
+    background: linear-gradient(
+            to right,
+            rgba(20, 29, 47, 0.349),
+            rgba(36, 59, 85, 0.349)
+        ),
+        url(../../Images/tvhero.jpg) no-repeat center center/cover;
+    height: 60vh;
 }

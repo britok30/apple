@@ -30,7 +30,7 @@ const Watch = () => {
                                         className="watch-p wow fadeInUp"
                                         data-wow-delay=".9s"
                                     >
-                                        Apple Watch Series 4. Fundamentally
+                                        Apple Watch Series 5 Fundamentally
                                         redesigned and <br />
                                         re-engineered to help you be even more
                                         active, <br /> healthy, and connected.

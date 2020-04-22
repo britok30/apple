@@ -74,6 +74,18 @@ const Navbar = () => {
                                 Watch
                             </Link>
                         </li>
+                        <li
+                            className="nav-item wow fadeInUp"
+                            data-wow-delay="1.5s"
+                        >
+                            <Link
+                                className="nav-link navlink"
+                                to="/tv"
+                                style={{ color: "#fff" }}
+                            >
+                                TV
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
