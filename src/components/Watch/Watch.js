@@ -41,7 +41,7 @@ const Watch = () => {
                                         className="price wow fadeInUp"
                                         data-wow-delay="1s"
                                     >
-                                        From $699
+                                        From $399
                                     </h3>
                                     <p
                                         className="buy-red wow fadeInUp"

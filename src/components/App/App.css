@@ -122,13 +122,9 @@ ul li {
     font-weight: 600;
 }
 
-.iphone-main {
-    font-weight: 700;
-    font-size: 6rem;
-}
-
 .iphone-p,
-.watch-p {
+.watch-p,
+.macbook-p {
     font-weight: 300;
     color: rgb(158, 156, 156);
     margin-top: 4rem;
@@ -176,18 +172,11 @@ ul li {
 }
 
 .macbook-main,
-.watch-main {
+.watch-main,
+.iphone-main {
     font-weight: 700;
     font-size: 6rem;
     color: #fff;
-}
-
-.macbook-p {
-    font-weight: 600;
-    color: #fff;
-    margin-top: 4rem;
-    font-size: 4rem;
-    text-align: left;
 }
 
 .lite {
@@ -199,12 +188,15 @@ ul li {
     margin-top: 5rem;
 }
 
-.iphonexs {
-    width: 56%;
-    display: block;
-    margin: 0 auto;
+.macbook-subhead {
+    padding-top: 4rem;
 }
 
+.macbookpro {
+    margin-top: 4rem;
+    width: 80%;
+    border-radius: 3px;
+}
 .macbook-price {
     position: absolute;
     bottom: -15%;

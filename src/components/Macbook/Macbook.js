@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import logogrey from "../../Images/logogrey.svg";
+import macbookpro from "../../Images/macbookpro.jpg";
 
 const Macbook = () => {
     return (
@@ -50,7 +51,7 @@ const Macbook = () => {
                 </header>
             </div>
 
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <h1 className="macbook-lead">Macbook Pro</h1>
@@ -58,11 +59,15 @@ const Macbook = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-8">
-                        <img src="" alt="" />
+                        <img
+                            className="macbookpro"
+                            src={macbookpro}
+                            alt=""
+                        />
                     </div>
                     <div className="col-md-4">
-                        <h3>Portable Powerhouse</h3>
-                        <p>
+                        <h3 className="macbook-subhead">Portable Powerhouse</h3>
+                        <p className="macbook-p">
                             MacBook Pro elevates the notebook to a whole new
                             level of performance and portability. Wherever your
                             ideas take you, you’ll get there faster than ever
