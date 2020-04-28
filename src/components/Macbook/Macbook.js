@@ -54,20 +54,31 @@ const Macbook = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="macbook-lead">Macbook Pro</h1>
+                        <h1
+                            className="apple-lead wow fadeInUp"
+                            data-wow-delay="2s"
+                        >
+                            Macbook Pro
+                        </h1>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-8">
                         <img
-                            className="macbookpro"
+                            className="macbookpro wow fadeInUp"
+                            data-wow-delay="3s"
                             src={macbookpro}
                             alt=""
                         />
                     </div>
                     <div className="col-md-4">
-                        <h3 className="macbook-subhead">Portable Powerhouse</h3>
-                        <p className="macbook-p">
+                        <h3 className="macbook-subhead wow fadeInUp">
+                            Portable Powerhouse
+                        </h3>
+                        <p
+                            className="macbook-p wow fadeInUp"
+                            data-wow-delay="3.5s"
+                        >
                             MacBook Pro elevates the notebook to a whole new
                             level of performance and portability. Wherever your
                             ideas take you, you’ll get there faster than ever

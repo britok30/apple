@@ -6,10 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg">
-                <Link
-                    className="navbar-brand brand2"
-                    to="/"
-                >
+                <Link className="navbar-brand brand2" to="/">
                     <img
                         className="logo2 wow fadeInUp"
                         data-wow-delay=".7s"
@@ -72,18 +69,6 @@ const Navbar = () => {
                                 style={{ color: "#fff" }}
                             >
                                 Watch
-                            </Link>
-                        </li>
-                        <li
-                            className="nav-item wow fadeInUp"
-                            data-wow-delay="1.5s"
-                        >
-                            <Link
-                                className="nav-link navlink"
-                                to="/tv"
-                                style={{ color: "#fff" }}
-                            >
-                                TV
                             </Link>
                         </li>
                     </ul>

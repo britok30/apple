@@ -5,7 +5,6 @@ import Iphone from "../Iphone/Iphone";
 import Watch from "../Watch/Watch";
 import Macbook from "../Macbook/Macbook";
 import Navbar from "../Navbar/Navbar";
-import AppleTV from "../TV/AppleTV";
 import "./App.css";
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
                     <Iphone path="/iphone" />
                     <Watch path="/watch" />
                     <Macbook path="/macbook" />
-                    <AppleTV path="/tv" />
                 </Router>
             </div>
         </Fragment>
